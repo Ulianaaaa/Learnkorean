@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "277884331655",
+    "project_id": "koreanll-21ac0",
+    "storage_bucket": "koreanll-21ac0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277884331655:android:c0cd84abca8b0dd55a3a22",
+        "android_client_info": {
+          "package_name": "com.example.learnkorean"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277884331655-b2pihasrb4d2ai744o5s3ch0afn17vd7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.learnkorean",
+            "certificate_hash": "178d2d7cfe34ddcab04ff599e08e375d4da7e261"
+          }
+        },
+        {
+          "client_id": "277884331655-trhi0a7a299hih7hbjq324kjn9f2aajv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqXWN86K9r0fYr7_k76TfiA0sHQH5lLwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277884331655-trhi0a7a299hih7hbjq324kjn9f2aajv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

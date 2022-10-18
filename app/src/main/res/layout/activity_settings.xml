@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActvity"
+    android:background="?attr/colorPrimary">
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="20dp"
+        android:onClick="clickToMainTwo"
+        app:srcCompat="?attr/actionButtonStyle" />
+
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="89dp"
+        android:layout_height="89dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        app:srcCompat="@drawable/avaa" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView23"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text="Настройки"
+        android:textColor="?attr/colorSecondary"
+        android:textSize="23dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="150dp"
+        android:layout_height="2dp"
+        android:layout_below="@id/textView17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        app:srcCompat="?attr/materialAlertDialogTitleTextStyle" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imageView24"
+        android:layout_marginTop="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp"
+                android:background="?attr/buttonStyleSmall"
+                android:fontFamily="@font/regular"
+                android:gravity="left|center"
+                android:paddingLeft="15dp"
+                android:text="Аккаунт"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:onClick="clickToParFrag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="?attr/buttonStyleSmall"
+                android:fontFamily="@font/regular"
+                android:gravity="left|center"
+                android:paddingLeft="15dp"
+                android:text="Пароль"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_below="@id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="?attr/buttonStyleSmall"
+                android:fontFamily="@font/regular"
+                android:gravity="left|center"
+                android:paddingLeft="15dp"
+                android:text="Тема"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="18dp"  />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_below="@id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="?attr/buttonStyleSmall"
+                android:fontFamily="@font/regular"
+                android:gravity="left|center"
+                android:paddingLeft="15dp"
+                android:text="Премиум версия"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="18dp"  />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_below="@id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="?attr/buttonStyleSmall"
+                android:fontFamily="@font/regular"
+                android:gravity="left|center"
+                android:paddingLeft="15dp"
+                android:text="Уведомление"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="18dp"  />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_below="@id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="?attr/buttonStyleSmall"
+                android:fontFamily="@font/regular"
+                android:gravity="left|center"
+                android:paddingLeft="15dp"
+                android:text="Помощь"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="18dp"  />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_below="@id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="?attr/buttonStyleSmall"
+                android:fontFamily="@font/regular"
+                android:gravity="left|center"
+                android:paddingLeft="15dp"
+                android:text="Оценить нас"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="18dp"  />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_below="@id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="?attr/buttonStyleSmall"
+                android:fontFamily="@font/regular"
+                android:gravity="left|center"
+                android:paddingLeft="15dp"
+                android:text="О приложении"
+                android:textColor="?attr/colorSecondary"
+                android:textSize="18dp"  />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:fontFamily="@font/regular"
+                android:gravity="center"
+                android:textColor="?attr/colorSecondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Версия: 01.01.01"
+                android:layout_below="@id/button12"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:fontFamily="@font/regular"
+                android:gravity="center"
+                android:textColor="?attr/colorOnSurface"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView18"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textSize="17dp"
+                android:text="한국의 정원: learning korean" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_below="@+id/textView19"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/framenas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+    </FrameLayout>
+
+</RelativeLayout>

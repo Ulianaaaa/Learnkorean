@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/lightbutnastwo"
+        android:width="360dp"
+        android:height="50dp"/>
+    <item android:drawable="@drawable/strelkalightmini"
+        android:width="5dp"
+        android:height="12dp"
+        android:left="342dp"
+        android:top="18dp"/>
+
+</layer-list>

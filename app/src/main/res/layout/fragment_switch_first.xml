@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SwitchFirstFragment"
+    android:background="?attr/colorPrimary">
+
+
+    <FrameLayout
+        android:id="@+id/frameFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+    </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="119dp"
+            android:src="@drawable/avatarka" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="67dp"
+            android:alpha="0.6"
+            android:src="@drawable/whitefon" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="415dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="Учите слова! \nПотратьте всего пять минут, \nчтобы приблизиться к мечте!"
+            android:textColor="?attr/colorSecondary"
+            android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="260dp"
+        android:layout_height="44dp"
+        android:layout_below="@id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="164dp"
+        android:alpha="0.9"
+        android:background="?attr/buttonStyle"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:onClick="clickToSignUp"
+        android:text="Регистрация"
+        android:textAllCaps="false"
+        android:textColor="?attr/colorSecondary"
+        android:textSize="22dp"
+        tools:ignore="UsingOnClickInXml" />
+
+
+</RelativeLayout>

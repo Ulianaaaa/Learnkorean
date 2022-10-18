@@ -1,0 +1,73 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Learnkorean" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <!-- Primary brand color. -->
+        <item name="android:textColor">@color/pink</item>
+        <item name="colorPrimary">@color/lighpurpl</item>
+        <item name="backgroundColor">@color/lighpurpl</item>
+        <item name="buttonStyle">@drawable/backbut_purple</item>
+        <item name="buttonBarButtonStyle">@drawable/buton_circle</item>
+
+        <item name="android:dropDownItemStyle">@drawable/avaadar</item>
+        <item name="android:dropDownSpinnerStyle">@drawable/hommedar</item>
+        <item name="android:dropDownListViewStyle">@drawable/korsinadark</item>
+
+        <item name="imageButtonStyle">@drawable/purplee</item>
+
+        <item name="actionButtonStyle">@drawable/strlkadark</item>
+        <item name="actionDropDownStyle">@drawable/lindarke</item>
+        <item name="actionModeCloseButtonStyle">@drawable/regolnicdark</item>
+        <item name="actionModeStyle">@drawable/kresticdarkth</item>
+
+        <item name="colorOnBackground">@color/lighpurpl</item>
+        <item name="colorControlNormal">@color/darkpurpl</item>
+
+        <item name="colorOnSurface">@color/somepink</item>
+
+        <item name="materialAlertDialogTitleTextStyle">@drawable/linedarkkk</item>
+
+        <item name="buttonStyleSmall">@drawable/butnastroikida</item>
+
+
+        <item name="colorSecondary">@color/pink</item>
+        <item name="colorOnSecondary">@color/darkpurpl</item>
+
+        <item name="colorPrimaryVariant">#B1B1B1</item>
+        <item name="colorSecondaryVariant">#DDD7D8</item>
+
+        <item name="buttonBarStyle">@drawable/linewo</item>
+        <item name="buttonBarNegativeButtonStyle">@drawable/lin</item>
+
+<!--        <item name="actionOverflowButtonStyle">@drawable/darkpolosprob</item>-->
+        <item name="actionBarTabBarStyle">@drawable/flooowda</item>
+
+
+        <item name="actionBarStyle">@drawable/foonin</item>
+        <item name="actionBarTabStyle">@drawable/fonreg</item>
+
+        <item name="colorOnPrimary">@color/green</item>
+        <!-- Secondary brand color. -->
+
+        <item name="popupTheme">@style/Menu</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+<!--        <item name="android:actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>-->
+    </style>
+
+    <style name="Menu">
+        <item name="android:colorBackground">@color/darkpurpl</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:listSelector">@color/black</item>
+    </style>
+
+<!--    <style name="Widget.AppCompat.ActionButton.Overflow" parent="@android:style/Widget.Holo.ActionButton.Overflow">-->
+<!--        <item name="android:src">-->
+<!--            @drawable/darkflow-->
+<!--        </item>-->
+<!--    </style>-->
+</resources>
